@@ -1,0 +1,341 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.img-container {
+    position: relative;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+.img-container .outer-content {
+    padding: 0;
+    width: 50%;
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.img-container .content-div {
+    width: 100%;
+}
+
+.img-container h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.img-container h1 {
+    color: #11b4e5;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 20px 0 0 0;
+    letter-spacing: 0px;
+}
+
+.img-container h6 {
+    color: #fff;
+    font-size: 1em;
+    font-weight: normal;
+    padding: 0;
+    letter-spacing: 5px;
+}
+
+.img-container p {
+    color: #414143;
+    font-size: 0.8em;
+    font-weight: normal;
+    padding: 10px 0;
+    letter-spacing: 1px;
+}
+
+.navbar-default {
+    background: transparent;
+    border-bottom: 1px solid #e7e7e7;
+    border-color: transparent;
+    margin: 0;
+    position: relative;
+}
+
+.navbar-brand {
+    height: 70px;
+    padding: 10px 15px 15px 15px;
+}
+
+.navbar-nav>li>a {
+    padding-top: 28px;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #11b4e5;
+    background: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #11b4e5;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
+.navbar-toggle {
+    margin: 5px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background: #676767;
+    height: 4px;
+}
+
+.navbar-default .navbar-toggle .custom-icon-1 {
+    width: 45px;
+    margin: 8px -15px;
+}
+
+.navbar-default .navbar-toggle .custom-icon-2 {
+    width: 30px;
+}
+
+/*-------------------------------------------------navbar end-------------------------------------------*/
+
+.about-us {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding: 40px 0;
+    border-top: 1px solid #dfdcdc;
+}
+
+.about-us p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+.about-us h1 {
+    margin: 0;
+    padding: 0;
+    color: #11b4e5;
+}
+
+
+.carousel-container {
+    margin-bottom: 50px;
+}
+
+.carousel-bg {
+    background: lightgray;
+}
+
+.carousel-bg img {
+    margin: auto;
+}
+
+.carousel-caption {
+    bottom: 0;
+    right: 0;
+    height: auto;
+    left: 0;
+    position: relative;
+}
+
+.carousal-content-bg {
+    background: #11b4e5;
+    height: 322px;
+}
+
+.nopadding {
+    padding: 0;
+    margin: 0;
+}
+
+.carousal-content-bg p {
+    padding: 15px;
+    font-style: italic;
+    font-size: 15px;
+    color: #fff;
+}
+
+.carousal-content-bg h1 {
+    margin: 0;
+    padding: 25px 0 0 0;
+    font-size: 20px;
+}
+
+.font-icons {
+    padding: 20px 10px;
+    font-size: 26px;
+}
+
+.carousel-control {
+    top: 140px;
+    font-size: 35px;
+    width: 15%;
+    opacity: 1;
+}
+
+.carousel-control.right {
+    background: transparent;
+}
+
+.carousel-control.left {
+    background: transparent;
+}
+
+.carousel-control span {
+    background: #838383;
+    border-radius: 50%;
+    padding: 14px;
+    font-size: 15px;
+}
+
+.footer-container span {
+    padding: 15px;
+    font-size: 14px;
+    position: absolute;
+    font-weight: bold;
+    top: 0;
+}
+
+.footer-container img {
+    margin: 39px auto;
+}
+
+.footer-container .font-icons {
+    color: #cfcfcf;
+}
+
+.copyright-container {
+    padding: 20px 0;
+    border-top: 1px solid #000;
+}
+
+.other-info {
+    margin: 10px auto;
+    text-align: left;
+}
+
+.other-info .fa {
+    color: #11b4e5;
+    font-size: 30px;
+}
+
+.inner-carousal {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/*On Ipad */
+
+@media only screen and (min-width: 768px) {
+    .img-container h1 {
+        font-size: 6em;
+        padding: 30px 0 0 0;
+    }
+
+    .img-container h6 {
+        font-size: 2em;
+    }
+
+    .img-container p {
+        font-size: 1.5em;
+    }
+
+    .carousal-content-bg p {
+        padding: 25px 16px 15px 15px;
+    }
+
+    .carousal-content-bg h1 {
+        padding: 10px 0 0 0;
+    }
+
+    .font-icons {
+        padding: 40px 10px;
+    }
+
+    .carousel-control span {
+        background: transparent;
+        border-radius: 0;
+        padding: 0;
+        font-size: 40px;
+    }
+
+    .other-info {
+        margin: 35px auto;
+        position: relative;
+    }
+
+    .footer-container span {
+        padding: 0 15px;
+        position: relative;
+        width: 100%;
+        top: -8px;
+        right: 0;
+        font-size: 5px;
+    }
+
+    .footer-container {
+        background: #fbfbfb;
+    }
+}
+
+
+
+/*On larg screen (Desktop)*/
+@media only screen and (min-width: 1170px) {
+    .carousal-content-bg p {
+        padding: 30px 70px 30px 70px;
+    }
+
+    .other-info {
+        margin: 42px auto;
+        position: relative;
+    }
+
+    .footer-container span {
+        padding: 0 5px;
+        position: relative;
+        top: -8px;
+        right: 0;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .other-info {
+        margin: 41px auto;
+        text-align: center;
+    }
+
+    .img-container h1 {
+        font-size: 9em;
+        padding: 75px 0 0 0;
+    }
+
+    .img-container h6 {
+        font-size: 4em;
+    }
+
+    .img-container p {
+        font-size: 2.5em;
+    }
+}
